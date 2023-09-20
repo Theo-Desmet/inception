@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.17
 
 RUN		adduser -u 82 -D -S -G www-data www-data && \
 		apk update && apk add --no-cache \
